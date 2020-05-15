@@ -1,0 +1,28 @@
+[package]
+name = "divvun"
+human_name = "Divvun Keyboard"
+version = "0.1.0"
+
+# Layouts to include for mobile keyboards
+[consolidated.smi]
+git = "https://github.com/giellalt/keyboard-smi/"
+branch = "feature/new-format"
+layouts = ["se", "fi", "nb", "sv", "sma", "smj-NO", "smj-SE", "smn", "sms"]
+
+[consolidated.crk]
+git = "https://github.com/giellalt/keyboard-crk/"
+layouts = ["crk"]
+
+# [bundles.keyboard_win]
+# package = "keyboard-sms"
+# platform = "windows"
+# uuid = "-"
+# repo = "https://pahkat.uit.no/main/"
+
+# [bundles.keyboard_macos]
+# package = "keyboard-sms"
+# platform = "macos"
+# repo = "https://pahkat.uit.no/main/"
+
+[bundles.keyboard_android]
+[bundles.keyboard_ios]
